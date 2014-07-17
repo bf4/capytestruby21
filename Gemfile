@@ -18,7 +18,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'poltergeist'
-  gem 'simplecov'
+  gem 'simplecov', :github => "colszowka/simplecov"
 end
 
 # Use ActiveModel has_secure_password
